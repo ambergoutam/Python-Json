@@ -58,11 +58,14 @@ if __name__=="__main__":
 		key = input("Enter the key: ")
 		if opt==1: 
 			value = input("Enter the value: ")
+			key = input("Enter the key: ")
 			dictionary = [key, value]
 			val = ds.create(dictionary)
 		elif opt==2:
+			key = input("Enter the key: ")
 			val = ds.read(key)
 		elif opt==3:
+			key = input("Enter the key: ")
 			val = ds.delete(key)
 		else:
 			break

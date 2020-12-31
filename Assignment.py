@@ -55,7 +55,6 @@ if __name__=="__main__":
 		print("3. Delete value.")
 		print("4. Exit().")
 		opt = int(input("Select the operation number: "))
-		key = input("Enter the key: ")
 		if opt==1: 
 			value = input("Enter the value: ")
 			key = input("Enter the key: ")
